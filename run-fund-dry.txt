@@ -1,0 +1,4 @@
+account          0xc6ae4ecfe870d3636de322b05be5459537b3b337
+native balance   0 STT  (gas)
+voucher          eligible=true | reason=- | amount=- USDso
+DRY RUN - nothing broadcast. re-run with --live to claim.

@@ -1,0 +1,48 @@
+account        0x47537e3a3ea6e9391f3b26ea45618db6828c8bff
+equity         452433.83963843605985394 USDso
+initial  req   451886.270136809985958007
+maintenance    225943.135068404992979004
+closeout       112971.567534202496489503
+margin status  Healthy
+equity / MM    200.24%   (100% = at the maintenance line)
+buffer above MM 226490.704570031066874936 USDso
+
+positions      21   (cross margin: margin is account-wide, so there is no per-position liquidation price)
+  XRP      SHORT  size 15269.4       entry 1.357850573364294319 mark 1.3598877924455 uPnL -31.107113038562025461 funding 0         ROM -3.00%
+  BTC      SHORT  size 91.27008      entry 83121.715040729716776385 mark 83430.2590684156035 uPnL -28160.838090413096135278 funding 0         ROM -7.40%
+  NEAR     LONG   size 20297.1       entry 5.213503812651750245 mark 5.22313585627 uPnL 195.50255252397710221 funding 0         ROM 1.84%
+  BNB      LONG   size 30.013        entry 747.515175701799765687 mark 748.645570024712 uPnL 33.926524813564888436 funding 0         ROM 1.50%
+  ETH      LONG   size 38.3909       entry 2456.023771458831361763 mark 2460.1440648683165 uPnL 158.181772254202993542 funding 0         ROM 3.34%
+  SOL      LONG   size 2428.65       entry 106.397540471224002795 mark 106.8490410218835 uPnL 1096.536812359187886923 funding 0         ROM 8.45%
+  ADA      SHORT  size 26695         entry 0.223146752823027194 mark 0.225367273322 uPnL -59.27679472007905617 funding -0.075257359625103968 ROM -9.85%
+  AVAX     LONG   size 3177          entry 9.620814163659617432 mark 9.725349175284 uPnL 332.107731930663418536 funding 0         ROM 10.74%
+  WLD      LONG   size 35461         entry 0.584784484488659699 mark 0.580758297776 uPnL -142.772607017625586239 funding 0         ROM -3.47%
+  DOGE     SHORT  size 219170        entry 0.081488691195125725 mark 0.082032037338 uPnL -119.08517413375485175 funding 0         ROM -6.63%
+  SUI      SHORT  size 78139         entry 1.029249789111332267 mark 1.0325342192995 uPnL -256.642090473238488887 funding 0         ROM -3.19%
+  LINK     SHORT  size 407.8         entry 12.315362181217820359 mark 12.3817651834485 uPnL -27.079144309671157599 funding -0.126178241663944717 ROM -5.34%
+  TAO      LONG   size 5.382         entry 271.697160668033844498 mark 272.77409950625375 uPnL 5.796084827299531411 funding 0         ROM 1.97%
+  HYPE     LONG   size 2373.49       entry 80.966652337567599236 mark 81.203212376281 uPnL 561.472886285869579346 funding 0         ROM 5.82%
+  XLM      SHORT  size 24940         entry 0.180778772355052811 mark 0.184407985453 uPnL -90.51257466280289366 funding -0.39791689159141075 ROM -19.60%
+  1000PEPE LONG   size 4855800       entry 0.004582832898001757 mark 0.004561796525 uPnL -102.1484200219316406 funding 0         ROM -2.31%
+  LIT      LONG   size 1201.6        entry 3.392999025570534667 mark 3.388400655774 uPnL -5.525401147516055867 funding -0.318621970240865999 ROM -0.64%
+  ZRO      SHORT  size 8053.2        entry 1.980809434332445141 mark 2.011870514372 uPnL -250.141089774543190498 funding 0         ROM -7.72%
+  PUMP     LONG   size 114500        entry 0.004838631705364291 mark 0.004812458956 uPnL -2.9967798022113195 funding 0         ROM -2.72%
+  ZEC      SHORT  size 8.56          entry 1262.976541830584262259 mark 1267.976796349531 uPnL -42.802178682184075062 funding 0         ROM -1.98%
+  VVV      SHORT  size 44.51         entry 25.658437429791058189 mark 25.91535370876 uPnL -11.435343576907600007 funding -0.014343833483678498 ROM -4.96%
+
+totals         notional 8532883.37695277520777663 | IM req 451886.270136809985958007 | MM req 225943.135068404992979004
+cross-margin   account leverage 18.86x on equity
+
+funding, annualised (rate is per 8h window, read per pool):
+  HYPE      -189.16%
+  BTC       +142.65%
+  SOL       -109.27%
+  LIT       -68.39%
+  ETH       -39.91%
+  NEAR      -26.30%
+  XRP       -16.79%
+  AVAX      -16.13%
+  ZRO       +10.95%
+  VVV       +10.95%
+
+positive APR = longs pay shorts. The largest |APR| is where a funding carry pays; the sign says which side receives.

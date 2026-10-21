@@ -1,0 +1,14 @@
+market             BTC | pool 0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0
+mark / index       84564.253043436253 / 84606.3685678647 
+open interest      294.55928 BTC
+maxPositionSize    100 BTC  <- the real per-account cap
+maxOpenInterest    493.6309 BTC  (maxOI / maxPos = 4.94)
+docs say          1/10 of the OI cap on most markets; live ratio here is 1/4.94
+effective IMF      5.00% (static, dynamic IMF off)
+lot / min          0.00001 / 0.00013
+placeable now      false | limited by collateral
+max quantity       0 BTC
+position size      0 (flat)
+lock amount        0 USDso  |  top-up 0
+
+requested          2500 USDso -> 0.02956 BTC (CAPPED to 0 by collateral)

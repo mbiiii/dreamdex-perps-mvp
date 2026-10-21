@@ -1,0 +1,9 @@
+market           BTC | pool 0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0
+side / type      LONG (buy) / limit
+mark price       84567.252427373208 
+notional asked   250 USDso -> 0.00295 BTC
+cap              0 BTC | limited by collateral
+quantity to send 0 BTC (CAPPED from 0.00295)
+lock amount      0 USDso | top-up 0
+placeable        false
+error: Error | account cannot place this order: limited by collateral

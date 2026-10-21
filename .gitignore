@@ -1,0 +1,4 @@
+.env
+.env.botkey
+node_modules/
+*.log

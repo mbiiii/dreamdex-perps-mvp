@@ -1,0 +1,17 @@
+{
+  "name": "perps-guardian",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Auto-deleverage guard and pre-trade size gate for dreamDEX perps on Somnia testnet",
+  "bin": { "perps-guardian": "cli.mjs" },
+  "scripts": {
+    "status": "node cli.mjs status",
+    "gate": "node cli.mjs gate --market BTC --notional 1000",
+    "guard": "node cli.mjs guard"
+  },
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "0.32.1",
+    "viem": "2.54.1"
+  }
+}
