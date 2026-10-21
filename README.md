@@ -87,13 +87,10 @@ lock amount       0 USDso  |  top-up 0
 
 ## X posts
 
-<!-- Replace these with the real post URLs after posting. The bounty requires 2-3 posts
-     tagging @DreamDEXSomnia. Suggested angles:
-       1. the docs-vs-chain cap gap this bot exists to close (the 1/20, 1/40, 1/4.94 numbers)
-       2. a short clip of `gate` refusing an order that the docs would have let through
-       3. the funding-APR table from `status`, with the sign convention explained -->
-
-1. <post url 1>
+1. https://x.com/skkiiirrrtttttt/status/2112989314531700982
+   The per-account cap the docs promise (1/10 of the OI cap) against what all 21
+   perp markets actually enforce: 1 market at 1/10, 13 at 1/20, 6 at 1/40, BTC at
+   1/4.94, ZEC at 1/4. The bot sizes off the chain rather than that table.
 2. <post url 2>
 3. <post url 3>
 
